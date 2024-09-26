@@ -1,0 +1,52 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  /* text-align: center; */
+  margin: 50px 0;
+  width: 50rem;
+}
+
+.intro h3 {
+  font-size: 3rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.intro h4 {
+  font-size: 1rem;
+  font-style: italic;
+  color: #8e8e8e;
+  margin: 0 0 20px;
+}
+
+.intro p {
+  font-size: 2.2rem;
+  line-height: 1.4;
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 3em;
+
+  img {
+    height: 20rem;
+    border-radius: 50%;
+    opacity: 0.8;
+  }
+}
+
+.btn-container {
+  display: flex;
+  justify-content: start;
+  gap: 2em;
+  margin-top: 2em;
+
+  em {
+    padding-left: 0.5em;
+  }
+}

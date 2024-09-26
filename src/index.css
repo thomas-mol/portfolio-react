@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --color-primary: #030a5f;
+  --color-primary-opaque: rgb(3, 10, 95, 0.3);
+  --color-secondary: #01010b;
+
+  --color-gradient: linear-gradient(
+    135deg,
+    var(--color-secondary) 10%,
+    var(--color-primary) 30%,
+    transparent
+  );
+
+  --color-gradient-light: linear-gradient(45deg, #f2f2f2, var(--color-primary));
+
+  font-family: "Epilogue", system-ui;
+  background: var(--color-gradient);
+  color: #ffffff;
+}

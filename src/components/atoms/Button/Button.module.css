@@ -1,0 +1,25 @@
+.button {
+  outline: 0;
+  cursor: pointer;
+  color: #f2f2f2;
+  background-color: var(--color-primary);
+  border-radius: 1em;
+  border: 0.1rem solid transparent;
+  font-size: 1.25rem;
+  padding: 0.5em 1em;
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: scale(1.025);
+    box-shadow: 0 0.175rem var(--color-primary-opaque);
+  }
+
+  &:active {
+    transform: scale(0.975);
+  }
+}
+
+.secondary {
+  color: var(--color-secondary);
+  background-color: #f2f2f2;
+}
