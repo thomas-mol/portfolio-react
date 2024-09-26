@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import styles from "./ProjectCard.module.css";
-import Project from "../../../types/project";
+import Project from "../../../types/Project";
 
 interface Props {
   project: Project;
